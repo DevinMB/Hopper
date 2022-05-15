@@ -29,7 +29,7 @@ A Datasource has been configured for you in `/src/resources/application.properti
 
 ```
 # datasource connection properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/final_capstone
+spring.datasource.url=jdbc:postgresql://192.168.1.72:5432/final_capstone
 spring.datasource.name=final_capstone
 spring.datasource.username=final_capstone_appuser
 spring.datasource.password=finalcapstone

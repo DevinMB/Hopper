@@ -20,7 +20,7 @@ public abstract class FinalCapstoneDaoTests {
     @BeforeClass
     public static void setupDataSource() {
         dataSource = new SingleConnectionDataSource();
-        dataSource.setUrl("jdbc:postgresql://localhost:5432/final_capstone");
+        dataSource.setUrl("jdbc:postgresql://192.168.1.72:5432/final_capstone");
         dataSource.setUsername("final_capstone_appuser");
         dataSource.setPassword("finalcapstone");
         /* The following line disables autocommit for connections
